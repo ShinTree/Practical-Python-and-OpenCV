@@ -1,0 +1,10 @@
+6-24)colorspaces :
+
+Grayscale - 흑백으로, 빛의 명암으로 표현
+RGB - color, Red Green Blue 값으로 표현
+Hsv - color, H(ue): 색상. 일반적 색 의미. 원추모형에서 각도로 표현 (0-Red, 120-Green, 240-Blue)
+                S(aturation): 채도. 색의 순수성 의미 일반적으로 짙다,흐리다로 표현. 중심에서 밖으로 이동하면 채도가 높음
+                V(alue): 명도. 색의 밝고 어두운 정도. 수직축의 깊이로 표현. 어둡다 밝다로 표현
+Lab - ?
+
+차이점과 각 특성이 무엇일까요?
