@@ -21,26 +21,27 @@ plt.xlabel("Bins")                                                              
 plt.ylabel("# of Pixels")                                                                  #그래프 y축 label 설정
 
 for (chan, color) in zip(chans, colors):                                                   #
-    hist = cv2.calcHist([chan], [0], None, [256], [0, 256])                                #
+    hist = cv2.calcHist([chan], [0], None, [256], [0, 256])                                #Histogram 분석 함수(분석대상 이미지, 분석채널(x축의 대상). grayscale이면[0], color이면[0],[0,1]형태(1:Blue,2:Green,3:Red)
+                                                                                           #                     , mask-이미지의 분석영역.None이면 전체영역, histSize-BINS값.[256], range-Range값.[0,256])
     plt.plot(hist, color = color)                                                          #hist값 그래프 그리기 / 각 color별
     plt.xlim([0, 256])                                                                     #x축의 최소값, 최대값 설정
     
 ########################################################################7-5
 fig = plt.figure()                                                                         #그래프 그릴 창인 figure생성 / plt.figure(figsize=(9,9))처럼 최초 창의 크기설정도 가능
 
-ax = fig.add_subplot(131)                                                                  #
+ax = fig.add_subplot(131)                                                                  #fig figure에 subplot 생성 ( 1X3 중 1번째 ) = (1,3,1)
 hist = cv2.calcHist([chans[1], chans[0]], [0, 1], None, [32, 32], [0, 256, 0, 256])        #
 p = ax.imshow(hist, interpolation = "nearest")                                             #
 ax.set_title("2D Color Histogram for G and B")                                             #그래프 title 설정
 plt.colorbar(p)                                                                            #
 
-ax = fig.add_subplot(132)                                                                  #
+ax = fig.add_subplot(132)                                                                  #fig figure에 subplot 생성 ( 1X3 중 2번째 ) = (1,3,2)
 hist = cv2.calcHist([chans[1], chans[2]], [0, 1], None, [32, 32], [0, 256, 0, 256])        #
 p = ax.imshow(hist, interpolation = "nearest")                                             #
 ax.set_title("2D Color Histogram for G and R")                                             #그래프 title 설정
 plt.colorbar(p)                                                                            #
 
-ax = fig.add_subplot(133)                                                                  #
+ax = fig.add_subplot(133)                                                                  #fig figure에 subplot 생성 ( 1X3 중 3번째 ) = (1,3,3)
 hist = cv2.calcHist([chans[0], chans[2]], [0, 1], None, [32, 32], [0, 256, 0, 256])        #
 p = ax.imshow(hist, interpolation = "nearest")                                             #
 ax.set_title("2D Color Histogram for B and R")                                             #그래프 title 설정
