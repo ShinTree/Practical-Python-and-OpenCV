@@ -8,3 +8,6 @@ Hsv - color, H(ue): 색상. 일반적 색 의미. 원추모형에서 각도로 �
 Lab - ?
 
 차이점과 각 특성이 무엇일까요?
+
+Image Smoothing - 참고( https://opencv-python.readthedocs.io/en/latest/doc/11.imageSmoothing/imageSmoothing.html
+Thresholding - 참고( https://m.blog.naver.com/PostView.nhn?blogId=samsjang&logNo=220504782549&proxyReferer=https%3A%2F%2Fwww.google.com%2F
