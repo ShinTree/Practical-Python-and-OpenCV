@@ -1,0 +1,13 @@
+파이썬 설치(Path추가)
+
+pip install numpy
+pip install scipy
+pip install matplotlib
+
+pip install opencv-python          //OpenCV의 main module 설치
+pip install opencv-contrib-python //main module + extra module 사용
+https://docs.opencv.org/master  //extra module 기능 설명
+
+pip install mahotas
+pip install scikit-learn
+pip install -U scikit-image

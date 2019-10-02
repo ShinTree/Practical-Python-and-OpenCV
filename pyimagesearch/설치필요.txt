@@ -1,0 +1,13 @@
+USB 카메라
+
+dlib 설치하기 https://sulastri.tistory.com/3
+1. dlib 다운로드 http://dlib.net/ 압축풀기
+2. CMAKER 설치: https://cmake.org/download/
+<*Add CMake to the system PATH for the current user>
+3. BUILD, INSTALL
+python setup.py build
+python setup.py install
+
+>>> import dlib
+입력 시 아무런 오류 없이 뜨면 성공이다.
+>>>dlib.__version__
