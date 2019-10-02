@@ -11,3 +11,5 @@ python setup.py install
 >>> import dlib
 입력 시 아무런 오류 없이 뜨면 성공이다.
 >>>dlib.__version__
+
+http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
