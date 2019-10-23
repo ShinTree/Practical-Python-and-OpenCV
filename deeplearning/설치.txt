@@ -1,0 +1,5 @@
+1) tensorflow 설치
+pip install tensorflow -> AttributeError: module 'tensorflow' has no attribute 'random_uniform' 로 pip unistall tensorflow로 제거함
+pip install --upgrade tensorflow==1.13.1
+2) keras 설치
+pip install keras
