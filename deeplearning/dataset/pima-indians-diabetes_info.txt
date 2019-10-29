@@ -1,0 +1,11 @@
+샘플수 : 768
+속성 : 8
+  - 정보 1(pregnant): 과거 임신 횟수
+  - 정보 2(plasma): 포도당 부하 검사 2시간 후 공복 혈당 농도(mm Hg)
+  - 정보 3(pressure): 확장기 혈압(mm Hg)
+  - 정보 4(thickness): 삼두근 피부 주름 두께(mm)
+  - 정보 5(insulin): 혈청 인슐린(2-hour, mu U/ml)
+  - 정보 6(BMI): 체질량 지수(BMI, weight in kg/(height in m)2)
+  - 정보 7(pedigree): 당뇨병 가족력
+  - 정보 8(age): 나이
+클래스(class): 당뇨(1), 당뇨아님(0)

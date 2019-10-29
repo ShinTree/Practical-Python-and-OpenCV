@@ -1,0 +1,7 @@
+샘플 수 : 150
+속성 수 : 4
+  - 정보 1: 꽃받침 길이 (sepal length, 단위: cm)
+  - 정보 2: 꽃받침 넓이 (sepal width, 단위: cm)
+  - 정보 3: 꽃잎 넓이 (petal length, 단위: cm)
+  - 정보 4: 꽃잎 넓이 (petal width, 단위: 츠)
+클래스(class) : Iris-setosa, Iris-versicolor, Iris-virginica
