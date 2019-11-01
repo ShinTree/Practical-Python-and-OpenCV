@@ -1,15 +1,26 @@
-USB Ä«¸Ş¶ó
+USB ì¹´ë©”ë¼
 
-dlib ¼³Ä¡ÇÏ±â https://sulastri.tistory.com/3
-1. dlib ´Ù¿î·Îµå http://dlib.net/ ¾ĞÃàÇ®±â
-2. CMAKER ¼³Ä¡: https://cmake.org/download/
+dlib ì„¤ì¹˜í•˜ê¸° https://sulastri.tistory.com/3
+1. dlib ë‹¤ìš´ë¡œë“œ http://dlib.net/ ì••ì¶•í’€ê¸°
+2. CMAKER ì„¤ì¹˜: https://cmake.org/download/
 <*Add CMake to the system PATH for the current user>
 3. BUILD, INSTALL
 python setup.py build
 python setup.py install
 
 >>> import dlib
-ÀÔ·Â ½Ã ¾Æ¹«·± ¿À·ù ¾øÀÌ ¶ß¸é ¼º°øÀÌ´Ù.
+ì…ë ¥ ì‹œ ì•„ë¬´ëŸ° ì˜¤ë¥˜ ì—†ì´ ëœ¨ë©´ ì„±ê³µì´ë‹¤.
 >>>dlib.__version__
 
 http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
+
+
+---------------------------------------------------------------------------------------
+pip install cmake
+pip install dlib (Visual Studio ì„¤ì¹˜í•„ìš”)
+
+facelandmarks +)
+pip install imutils
+
+eyeblink_count +)
+pip install playsound
