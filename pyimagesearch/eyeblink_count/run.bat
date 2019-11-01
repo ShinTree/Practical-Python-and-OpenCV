@@ -1,0 +1,1 @@
+python s1.py --shape-predictor shape_predictor_68_face_landmarks.dat --alarm s2.wav

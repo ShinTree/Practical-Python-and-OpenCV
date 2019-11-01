@@ -1,0 +1,1 @@
+python facial_landmarks.py -p shape_predictor_68_face_landmarks.dat -i j.PNG
